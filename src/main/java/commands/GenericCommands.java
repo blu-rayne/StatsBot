@@ -21,8 +21,8 @@ public class GenericCommands {
      */
     public static void survey(SlashCommandEvent event) {
         event.reply("Do you want to help out future AP Statistics students? If you answered yes to that " +
-                    "question you should take the fantastic survey designed to do just that: <" + Setting.SURVEY_LINK + ">. " +
-                    "Even if you answered no to that question you should still take it anyways."
+                    "question, then you should take the fantastic survey designed to do just that: <" + Setting.SURVEY_LINK + ">. " +
+                    "Even if you answered no to that question, you should still take it anyways."
         ).queue();
     }
 
